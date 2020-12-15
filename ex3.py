@@ -10,4 +10,7 @@ for i in range(n):
         for m in range(j+1,n) :          
             result.add(a[i]+a[j]+a[m])
 
-print(sorted(result)[len(result)-k])    
+result=list(result)
+result.sort(reverse=True)
+print(result[k-1])
+#print(sorted(result)[len(result)-k])    
