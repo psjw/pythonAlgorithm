@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open('ex3.txt','rt')
+sys.stdin=open('ex003.txt','rt')
 n,k=map(int,input().split())
 
 a=list(map(int,input().split()))

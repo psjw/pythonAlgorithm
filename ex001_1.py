@@ -12,7 +12,7 @@
 # b = inputList[1]
 
 import sys
-#sys.stdin=open('input.txt','rt')
+#sys.stdin=open('ex001.txt','rt')
 a, b=map(int,input().split())
 
 

@@ -4,7 +4,7 @@
 
 import sys
 # rt 읽기 / 텍스트모드
-sys.stdin=open('ex2.txt','rt')
+sys.stdin=open('ex002.txt','rt')
 
 testCase=int(input())
 

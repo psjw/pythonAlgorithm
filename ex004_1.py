@@ -1,6 +1,6 @@
 import sys
 import math
-sys.stdin=open('ex4.txt','rt')
+sys.stdin=open('ex004.txt','rt')
 
 n = input().split()
 result=list(map(int,input().split()))
