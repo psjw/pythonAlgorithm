@@ -9,7 +9,7 @@ inputList = list(map(int,input().split()))
 
 def digit_sum(x):
     lastIdx=len(str(x))
-    tempSum=0;
+    tempSum=0
     # print(idx,i)
     # print("lastIndx : ",lastIdx)
     for j in range(lastIdx,0,-1):
