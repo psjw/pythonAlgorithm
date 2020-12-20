@@ -32,7 +32,7 @@ def digit_sum(x):
 
 # print(inputList)
 resultMaxValue=-2147000000
-resultIdx=0;
+resultIdx=0
 for idx,i in enumerate(inputList) :
     tempSum = digit_sum(i)                                      
     if tempSum>resultMaxValue :
