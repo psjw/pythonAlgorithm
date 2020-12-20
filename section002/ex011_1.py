@@ -13,7 +13,7 @@ for i in range(0,n) :
     inputStr="".join(inputList)
     reverseStr="".join(reverseList)
     if inputStr == reverseStr :
-        print("YES")
+        print("#%d YES"%(i+1))
     else :
-        print("NO")
+        print("#%d NO"%(i+1))
     

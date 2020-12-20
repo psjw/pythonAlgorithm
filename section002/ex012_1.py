@@ -1,5 +1,5 @@
 import sys
-sys.stdin=open('ex012_1.txt','rt')
+sys.stdin=open('./section002/ex012_1.txt','rt')
 m=list((input()))
 
 temp=""
