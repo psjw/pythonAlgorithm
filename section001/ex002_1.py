@@ -4,7 +4,7 @@
 
 import sys
 # rt 읽기 / 텍스트모드
-sys.stdin=open('ex002.txt','rt')
+sys.stdin=open('./section001/ex002.txt','rt')
 
 testCase=int(input())
 
@@ -31,4 +31,5 @@ for testCnt in range(1,testCase+1) :
     # sorted(inputList) 원래 List는 건들이지 않음   
     searchIdx=k-1
     # print(sorted(resultList)) 
-    print('#%d %d'%(testCnt,sorted(resultList)[searchIdx]))
+    # print('#%d %d'%(testCnt,sorted(resultList)[searchIdx]))
+    print(sorted(resultList)[searchIdx])

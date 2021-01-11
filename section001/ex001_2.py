@@ -26,7 +26,7 @@ for i in range(1, a+1):
         print(i)
         break
 else : # break시에는 else 쪽으로 오지 않음    
-    print(-1)
+    print(0)
 
 
 
