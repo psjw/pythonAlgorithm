@@ -1,6 +1,6 @@
 import sys
 import time
-sys.stdin=open('./section001/ex007_1.txt','rt')
+sys.stdin=open('./section001/ex007/ex007_6.txt','rt')
 
 n = int(input())
 print(n)
@@ -16,6 +16,5 @@ for i in range(2,n+1):
         cnt+=1
         for j in range(i,n+1,i) :   
             divideList[j]=1
-print(divideList)                 
 print("time : ",time.time()-start)
 print(cnt)
